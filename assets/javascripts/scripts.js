@@ -4,4 +4,6 @@
       $('#travel-table').DataTable();
   });
 
+  $('tr:odd').css({'background-color': 'lightslategray'});
+
 })()
